@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import { PinIcon } from 'lucide-react'
+import NewsletterSignup from './NewsletterSignup'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation()
@@ -66,6 +67,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <footer role="contentinfo" className="bg-navy text-cream/80 py-12 px-6">
         <div className="max-w-6xl mx-auto">
+          {/* Newsletter signup in footer */}
+          <div className="mb-12">
+            <NewsletterSignup />
+          </div>
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-center md:text-left">
               <p className="font-serif text-2xl text-cream mb-2">lilacsavi</p>

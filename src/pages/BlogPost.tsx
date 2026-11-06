@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, PinIcon } from 'lucide-react'
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 interface PostData {
   title: string
@@ -871,6 +872,14 @@ export default function BlogPost() {
 
           <div className="prose-custom">
             {post.content}
+          </div>
+
+          {/* Newsletter signup */}
+          <div className="mt-14">
+            <NewsletterSignup
+              headline="Liked this post?"
+              description="Get new blog posts, honest reviews, and Florida Gulf Coast living — straight to your inbox. No fluff."
+            />
           </div>
 
           {/* Author Bio Box — EEAT signal */}

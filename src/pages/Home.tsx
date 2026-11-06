@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, PinIcon, Palette, Shirt, Home as HomeIcon, Sun } from 'lucide-react'
 import { Helmet } from 'react-helmet-async'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 const featuredPost = {
   slug: 'diy-alicent-hightower-crown',
@@ -178,6 +179,16 @@ export default function Home() {
           >
             Follow on Pinterest <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </a>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="py-20 px-6 bg-warm-white" aria-labelledby="newsletter-heading">
+        <div className="max-w-4xl mx-auto">
+          <NewsletterSignup
+            headline="Get coastal vibes in your inbox"
+            description="New blog posts, honest reviews, and Florida Gulf Coast living — no fluff, no spam."
+          />
         </div>
       </section>
     </div>
