@@ -186,8 +186,8 @@ export default function Home() {
       <section className="py-20 px-6 bg-warm-white" aria-labelledby="newsletter-heading">
         <div className="max-w-4xl mx-auto">
           <NewsletterSignup
-            headline="Get coastal vibes in your inbox"
-            description="New blog posts, honest reviews, and Florida Gulf Coast living — no fluff, no spam."
+            headline="Free watercolor supply checklist"
+            description="Get the exact supply list I use every day — printable, checkbox-style, and tested by Bruce. Plus coastal vibes in your inbox."
           />
         </div>
       </section>

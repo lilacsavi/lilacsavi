@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { FormEvent } from 'react'
-import { Mail, CheckCircle } from 'lucide-react'
+import { Mail, CheckCircle, Download } from 'lucide-react'
 
 interface NewsletterSignupProps {
   variant?: 'inline' | 'boxed'
@@ -10,8 +10,8 @@ interface NewsletterSignupProps {
 
 export default function NewsletterSignup({
   variant = 'boxed',
-  headline = 'Get coastal vibes in your inbox',
-  description = 'New blog posts, honest reviews, and Florida Gulf Coast living — no fluff, no spam.',
+  headline = 'Free watercolor supply checklist',
+  description = 'Get the exact supply list I use every day — printable, checkbox-style, and tested by Bruce. Plus coastal vibes in your inbox.',
 }: NewsletterSignupProps) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
@@ -38,8 +38,21 @@ export default function NewsletterSignup({
     return (
       <div className="bg-gold/10 border border-gold/20 rounded-2xl p-8 text-center">
         <CheckCircle className="w-10 h-10 text-gold mx-auto mb-3" aria-hidden="true" />
-        <p className="font-serif text-xl text-navy mb-1">You are on the list!</p>
-        <p className="text-navy/60 text-sm">Watch your inbox for coastal vibes and honest reviews.</p>
+        <p className="font-serif text-xl text-navy mb-2">You are on the list!</p>
+        <p className="text-navy/60 text-sm mb-5">
+          Watch your inbox for coastal vibes and honest reviews.
+        </p>
+        <a
+          href="/lilacsavi-watercolor-checklist.pdf"
+          download
+          className="inline-flex items-center gap-2 bg-navy text-cream px-6 py-3 rounded-lg text-sm font-semibold hover:bg-navy/90 transition-colors"
+        >
+          <Download className="w-4 h-4" aria-hidden="true" />
+          Download Your Free Checklist
+        </a>
+        <p className="text-navy/40 text-xs mt-3">
+          lilacsavi-watercolor-checklist.pdf · 1 page · print or save to your phone
+        </p>
       </div>
     )
   }
@@ -83,7 +96,7 @@ export default function NewsletterSignup({
               disabled={status === 'submitting'}
               className="bg-gold text-navy px-6 py-3 rounded-lg text-sm font-semibold hover:bg-gold/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
             >
-              {status === 'submitting' ? 'Joining...' : 'Join the List'}
+              {status === 'submitting' ? 'Sending...' : 'Get the Checklist'}
             </button>
           </div>
           {status === 'error' && (

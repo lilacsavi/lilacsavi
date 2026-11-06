@@ -877,8 +877,8 @@ export default function BlogPost() {
           {/* Newsletter signup */}
           <div className="mt-14">
             <NewsletterSignup
-              headline="Liked this post?"
-              description="Get new blog posts, honest reviews, and Florida Gulf Coast living — straight to your inbox. No fluff."
+              headline="Free watercolor supply checklist"
+              description="Get the exact supply list I use every day — printable, checkbox-style, and tested by Bruce. Plus new blog posts in your inbox."
             />
           </div>
 
