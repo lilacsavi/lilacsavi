@@ -63,35 +63,35 @@ export default function MediaKit() {
           <p className="text-gold text-sm uppercase tracking-[0.2em] mb-6">Pinterest Analytics · Last 30 Days</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div>
-              <p className="text-3xl md:text-4xl font-serif text-cream">12.26K</p>
+              <p className="text-3xl md:text-4xl font-serif text-cream">14.48K</p>
               <p className="text-cream/60 text-sm mt-1 flex items-center gap-1">
                 <TrendingUp className="w-3.5 h-3.5 text-green-400" aria-hidden="true" />
-                Impressions · +907%
+                Impressions · +998%
               </p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-serif text-cream">2.81K</p>
+              <p className="text-3xl md:text-4xl font-serif text-cream">3.61K</p>
               <p className="text-cream/60 text-sm mt-1 flex items-center gap-1">
                 <Users className="w-3.5 h-3.5 text-green-400" aria-hidden="true" />
-                Total Audience · +937%
+                Total Audience · +1,168%
               </p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-serif text-cream">261</p>
+              <p className="text-3xl md:text-4xl font-serif text-cream">337</p>
               <p className="text-cream/60 text-sm mt-1 flex items-center gap-1">
                 <MousePointer className="w-3.5 h-3.5 text-green-400" aria-hidden="true" />
-                Engagements · +3,075%
+                Engagements · +3,787%
               </p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-serif text-cream">93</p>
+              <p className="text-3xl md:text-4xl font-serif text-cream">121</p>
               <p className="text-cream/60 text-sm mt-1 flex items-center gap-1">
                 <Users className="w-3.5 h-3.5 text-green-400" aria-hidden="true" />
-                Engaged Audience · +3,000%
+                Engaged Audience · +2,925%
               </p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-serif text-cream">14</p>
+              <p className="text-3xl md:text-4xl font-serif text-cream">20</p>
               <p className="text-cream/60 text-sm mt-1 flex items-center gap-1">
                 <Bookmark className="w-3.5 h-3.5 text-green-400" aria-hidden="true" />
                 Saves · +1,300%
