@@ -4,6 +4,15 @@ import { Helmet } from 'react-helmet-async'
 
 const posts = [
   {
+    slug: 'coastal-christmas-gift-guide',
+    title: "Coastal Christmas Gift Guide | What I'm Actually Giving This Year",
+    excerpt: 'The honest coastal Christmas gift guide. Candles, vases, pool floats, and cozy crafts I actually own and am giving to people I actually like.',
+    category: 'Home',
+    date: 'November 2026',
+    image: '/beach-collage.jpg',
+    imageAlt: 'Coastal Christmas gift flat lay showing candle, chinoiserie vase, Funboy float, flip flops, and crochet kit on cream linen',
+  },
+  {
     slug: 'diy-alicent-hightower-crown',
     title: 'DIY Alicent Hightower Crown | Last-Minute House of the Dragon Halloween',
     excerpt: 'How I made Queen Alicent\'s iconic green crown in one afternoon with an old headband, half a meter of fabric, and a lot of Red Bull.',

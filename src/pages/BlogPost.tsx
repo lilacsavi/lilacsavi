@@ -669,6 +669,107 @@ const posts: Record<string, PostData> = {
       </>
     ),
   },
+  'coastal-christmas-gift-guide': {
+    title: "Coastal Christmas Gift Guide | What I'm Actually Giving This Year",
+    category: 'Home',
+    date: '2026-11-25',
+    image: '/beach-collage.jpg',
+    imageAlt: 'Coastal Christmas gift flat lay showing candle, chinoiserie vase, Funboy float, flip flops, and crochet kit on cream linen',
+    description: 'The honest coastal Christmas gift guide. Candles, vases, pool floats, and cozy crafts I actually own and am giving to people I actually like.',
+    keywords: 'coastal Christmas gifts, Christmas gift guide, beach gifts, pool gifts, crochet kit, Funboy float, Amazon finds, holiday gift ideas, coastal home decor',
+    content: (
+      <>
+        <div className="bg-gold/10 border-l-4 border-gold p-6 mb-8">
+          <p className="text-navy/80 text-sm italic">
+            As an Amazon Associate I earn from qualifying purchases. Thanks for supporting my gift-giving habit.
+          </p>
+        </div>
+
+        <p className="text-lg md:text-xl leading-relaxed text-navy/80 mb-8 font-light">
+          I am the kind of person who starts Christmas shopping in July and then still panics in December because I second-guessed every single choice. This year I am doing things differently. I am only giving things I actually own, actually love, and would actually buy again. No filler, no last-minute drugstore candles, no guilt gifts. Just good stuff for people who deserve it.
+        </p>
+
+        <p className="text-base leading-relaxed text-navy/70 mb-8">
+          Everything on this list lives in my apartment or my Jeep right now. I have tested it, Bruce has inspected it, and it has all survived at least one Florida summer. If you need a gift for the coastal girlie, the pool person, the crafter, or just someone who deserves something prettier than a gift card, here is your list.
+        </p>
+
+        <h2 id="candle">The Candle: My Favorite Find of the Year</h2>
+        <p>
+          I am picky about candles. Most of them smell like a department store bathroom or burn down in three hours leaving a crater of wasted wax. This one is different. It fills the whole room without being overwhelming, the jar is pretty enough to leave out on the coffee table, and the burn time is actually impressive. I have already bought three: one for me, one for my mom, and one for my friend who hosts dinner parties better than I ever will.
+        </p>
+        <p>
+          <a href="https://link.amazon/B0ghzqYjV" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2">
+            Get the candle <span aria-hidden="true">→</span>
+          </a>
+        </p>
+
+        <h2 id="vase">The Vase: For the Friend Who Actually Uses Her Dining Table</h2>
+        <p>
+          I bought this chinoiserie vase after realizing every single vase in my house was clear glass and boring. It is blue and white, slightly vintage-looking, and makes even grocery store flowers look intentional. The best part? It is substantial enough to hold tall branches or a full bouquet without tipping over. I am giving one to my aunt who loves hosting and another to my friend who just moved into her first apartment.
+        </p>
+        <p>
+          <a href="https://link.amazon/B03U0akua" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2">
+            Get the chinoiserie vase <span aria-hidden="true">→</span>
+          </a>
+        </p>
+
+        <h2 id="funboy">The Float: For the Person Who Lives at the Pool</h2>
+        <p>
+          I have spent at least a hundred hours in this Funboy float and I do not intend on moving. It is perfect for tanning, lounging, reading, and yes, even watching movies on your laptop while floating. It is the kind of gift that feels excessive until the recipient spends one afternoon on it, and then they text you saying it changed their whole summer. Trust me on this one.
+        </p>
+        <p>
+          <a href="https://link.amazon/B081Qdmzb" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2">
+            Get the Funboy float <span aria-hidden="true">→</span>
+          </a>
+        </p>
+
+        <h2 id="flipflops">The Flip Flops: For the Beach Girlie Who Hates Cheap Sandals</h2>
+        <p>
+          These Vineyard Vines flip flops are the only ones I have found that are actually comfy enough for a full day of walking and still cute with a sundress. I have worn them to the beach, to brunch, to Wawa at midnight, and they still look good. The whale logo is subtle enough that you do not feel like a walking billboard. I am getting a pair for my sister who refuses to wear anything but sneakers.
+        </p>
+        <p>
+          <a href="https://link.amazon/B01CGOnp5" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2">
+            Get Vineyard Vines flip flops <span aria-hidden="true">→</span>
+          </a>
+        </p>
+
+        <h2 id="crochet">The Crochet Kit: For the Friend Who Needs a New Hobby</h2>
+        <p>
+          I got this starter crochet kit on a whim and it turned out to be the most fun I have had with a craft in years. It comes with everything you need to make an adorable little Pokemon friend, and the instructions are actually clear enough that a beginner can follow them. It is the perfect gift for someone who says they want to be crafty but does not know where to start. Plus the finished product is genuinely cute.
+        </p>
+        <p>
+          <a href="https://link.amazon/B0iHHL6uK" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2">
+            Get the crochet starter kit <span aria-hidden="true">→</span>
+          </a>
+        </p>
+
+        <h2 id="wrapping">How I Wrap Coastal Gifts</h2>
+        <p>
+          Brown kraft paper, twine, and a sprig of dried pampas grass or eucalyptus. It takes five minutes, costs next to nothing, and looks like you hired someone on Etsy to do it. I also save the tissue paper from my own Amazon orders and reuse it as filler. The planet and my wallet both thank me.
+        </p>
+
+        <h2 id="faq">FAQ</h2>
+        <p>
+          <strong>Are these all Amazon links?</strong><br />
+          Yes. I am an Amazon Associate, which means I earn a small commission if you buy through these links. It does not cost you anything extra and it helps me keep buying art supplies Bruce can knock off the table.
+        </p>
+        <p>
+          <strong>What if the person does not live near a beach?</strong><br />
+          The candle, vase, and crochet kit work for anyone. The float and flip flops are best for warm-climate folks or people who vacation somewhere sunny. Use your judgment.
+        </p>
+        <p>
+          <strong>Do you actually own all of these?</strong><br />
+          Yes. Every single item on this list is in my apartment, my Jeep, or my pool bag right now. I do not recommend things I have not used myself.
+        </p>
+
+        <div className="bg-navy/5 p-8 mt-12 text-center">
+          <PinIcon className="w-8 h-8 text-gold mx-auto mb-4" aria-hidden="true" />
+          <p className="text-navy/80 text-lg mb-2 font-serif">Pin this for when you are panic-shopping on December 23rd.</p>
+          <p className="text-navy/50 text-sm">My watercolor supply checklist is here if you need a gift for the artist in your life.</p>
+        </div>
+      </>
+    ),
+  },
 }
 
 export default function BlogPost() {

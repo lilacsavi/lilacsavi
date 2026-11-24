@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet-async'
 import NewsletterSignup from '../components/NewsletterSignup'
 
 const featuredPost = {
-  slug: 'diy-alicent-hightower-crown',
-  title: 'DIY Alicent Hightower Crown | Last-Minute House of the Dragon Halloween',
-  excerpt: "How I made Queen Alicent's iconic green crown in one afternoon with an old headband, half a meter of fabric, and a lot of Red Bull.",
-  category: 'Crafts',
-  image: '/alicent-wearing.jpg',
+  slug: 'coastal-christmas-gift-guide',
+  title: "Coastal Christmas Gift Guide | What I'm Actually Giving This Year",
+  excerpt: 'The honest coastal Christmas gift guide. Candles, vases, pool floats, and cozy crafts I actually own and am giving to people I actually like.',
+  category: 'Home',
+  image: '/beach-collage.jpg',
 }
 
 export default function Home() {
@@ -133,7 +133,7 @@ export default function Home() {
                 <div className="bg-navy/5 aspect-[4/3] md:aspect-auto overflow-hidden">
                   <img
                     src={featuredPost.image}
-                    alt="Savannah wearing a DIY green padded French hood crown with layered green and black tulle veil, gold jewels, and pearl earrings inspired by Alicent Hightower from House of the Dragon"
+                    alt="Coastal Christmas gift flat lay showing candle, chinoiserie vase, Funboy float, flip flops, and crochet kit on cream linen"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     width="800"
